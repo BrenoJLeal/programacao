@@ -1,6 +1,7 @@
+
 public class Animal {
-    private String classe;
-    private String locomocao;
+    protected String classe;
+    protected String locomocao;
 
     public Animal(String classe, String locomocao) {
         this.classe = classe;
