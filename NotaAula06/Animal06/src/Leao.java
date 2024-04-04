@@ -1,3 +1,8 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by FernFlower decompiler)
+//
+
 public class Leao extends Animal {
     private String pelo;
 
@@ -7,8 +12,8 @@ public class Leao extends Animal {
     }
 
     public void exibirInformacoes() {
-        System.out.println("Classe: " + getClasse());
-        System.out.println("Locomocao: " + getLocomocao());
+        System.out.println("Classe: " + classe);
+        System.out.println("Locomocao: " + locomocao);
         System.out.println("Pelo: " + pelo);
     }
 }
